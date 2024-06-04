@@ -1,0 +1,26 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Contenedor">
+        <h1 class="title">Calculadora</h1>
+        <h3 class="Subtitulo">Captura el valor 1</h3>
+        <input class="input" type="number" id="V1">
+        <h3 class="Subtitulo">Captura el valor 2</h3>
+        <input class="input" type="number" id="V2">
+        <button class="button" onclick="calcular()">Sumar</button>
+        <button class="button2" onclick="multiplicar()">Multiplicar</button>
+        <button class="button3" onclick="restar()">Restar</button>
+        <button class="button4" onclick="dividir()">Dividir</button>
+        <h3 class="Subtitulo">Resultado</h3>
+        <h3 class="Subtitulo" id="res"></h3>
+    </div>
+
+    <script src="./j.js"></script>
+</body>
+</html>
